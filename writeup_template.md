@@ -81,7 +81,7 @@ get_lane() function takes warped image as input and does a window histogram sear
 
 ####5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-Radius of curvature is calculated in the l_pipeline() function. ( Not sure why we need it for lane identification)
+Radius of curvature and offset from center are calculated in the l_pipeline() function. 
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
